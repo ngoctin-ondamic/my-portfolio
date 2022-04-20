@@ -1,0 +1,85 @@
+.abilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+    p {
+        text-align: center;
+        color: white;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+    >p {
+        color: #454746;
+    }
+    h1 {
+        color: #74dba2;
+        margin-bottom: 50px;
+    }
+    .__boxes{
+        display: flex;
+        width: 100%;
+        padding: 0 10%;
+        align-items: center;
+        justify-content: space-between;
+        .__singleAbility{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            background-color: #454746;
+            border-radius: 10px;
+            height: 300px;
+            >p{
+                margin-top: 25px;
+                color: #74dba2;
+            }
+            .__skills{
+                margin-top: 25px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                height: 200px;
+                background-color: #454746;
+                .__skill{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    height: 60px;
+                    width: 50%;
+                    padding: 0 10%;
+                    background-color: #454746;
+                    .__top{
+                        display: flex;
+                        align-items: flex-start;
+                        width: 100%;
+                        background-color: #454746;
+                        svg{
+                            width: 18px;
+                            height: 18px;
+                            background-color: transparent;
+                            color: #74dba2;
+                        }
+                        >p{
+                            width: 150px;
+                            padding-left: 10%;
+                            margin-bottom: 10px;
+                            background-color: transparent;
+                            text-align: left;
+                        }
+                    }
+                    small{
+                        background-color:transparent;
+                        padding-left: 25%;
+                        color: #7e827f;
+                    }
+                }
+            }
+        }
+    }
+}

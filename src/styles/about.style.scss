@@ -1,0 +1,85 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 0 10%;
+    justify-content: center;
+    align-items: center;
+    p,
+    h1 {
+        margin-bottom: 15px;
+    }
+    p {
+        color: white;
+        background-color: transparent;
+    }
+    > p {
+        color: #454746;
+    }
+    h1 {
+        color: #74dba2;
+        margin-bottom: 50px;
+    }
+    .__content {
+        display: flex;
+        width: 70%;
+        margin-top: 50px;
+        img {
+            width: 40%;
+            min-width: 100px;
+            border-radius: 10px;
+            margin-right: 15%;
+        }
+        .__left {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            > p {
+                text-align: left;
+            }
+            .__aboutBoxes {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin-bottom: 50px;
+                .__aBox {
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #4d5750;
+                    border-radius: 10px;
+                    svg {
+                        color: #74dba2;
+                        background-color: transparent;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                    small {
+                        color: #7e827f;
+                        text-align: center;
+                        background-color: transparent;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            > button {
+                width: 140px;
+                height: 50px;
+                font-weight: 500;
+                letter-spacing: 0.05rem;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                background-color: #74dba2;
+                color: #0f1210;
+                margin-top: 50px;
+                cursor: pointer;
+            }
+        }
+    }
+}
